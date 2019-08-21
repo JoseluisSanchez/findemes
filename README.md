@@ -19,4 +19,4 @@ Para cualquier consulta escribirme a [joseluis@alanit.com](mailto:joseluis@alani
 
 Novelda, agosto de 2019. José Luis Sánchez Navarro
 
-![findemes3.50a](.\findemes3.50a.png)
+![findemes3.50a](findemes3.50a.png)
