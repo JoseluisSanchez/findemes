@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<ROOT DATABASE="periodi.dbf">
+  <Structure>
+  <Field>
+  <Field_name>PECONCEPTO</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        90</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PETIPO</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>         1</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PEACTIVIDA</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        60</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PEIMPNETO</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         9</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PEOBSERV</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>       250</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PECLIENTE</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PECATINGR</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PERECING</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         5</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PEIVAREP</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         5</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PEGASTOSFI</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         9</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PEPROVEED</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PECATGAST</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PECUENTA</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        20</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PEIVASOP</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         5</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PERECGAS</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         5</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PEIMPTOTAL</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         9</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PEPERIODIC</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         1</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PEMESES</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        12</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PEFULTIMO</Field_name>
+  <Field_type>Date</Field_type>
+  </Field>
+  <Field>
+  <Field_name>PEFPROXIMO</Field_name>
+  <Field_type>Date</Field_type>
+  </Field>
+  </Structure>
+  <Data>
+  <Record>
+    <PECONCEPTO>Seguro de la casa</PECONCEPTO>
+    <PETIPO>G</PETIPO>
+    <PEACTIVIDA>Contabilidad personal</PEACTIVIDA>
+    <PEIMPNETO>200.00</PEIMPNETO>
+    <PEOBSERV></PEOBSERV>
+    <PECLIENTE></PECLIENTE>
+    <PECATINGR></PECATINGR>
+    <PERECING>0.00</PERECING>
+    <PEIVAREP>0.00</PEIVAREP>
+    <PEGASTOSFI>0.00</PEGASTOSFI>
+    <PEPROVEED>Compañia de seguros</PEPROVEED>
+    <PECATGAST>Seguros</PECATGAST>
+    <PECUENTA>SabadellCAM1</PECUENTA>
+    <PEIVASOP>0.00</PEIVASOP>
+    <PERECGAS>0.00</PERECGAS>
+    <PEIMPTOTAL>200.00</PEIMPTOTAL>
+    <PEPERIODIC>2</PEPERIODIC>
+    <PEMESES>000010000010</PEMESES>
+    <PEFULTIMO>20131122</PEFULTIMO>
+    <PEFPROXIMO>20140522</PEFPROXIMO>
+  </Record>
+  <Record>
+    <PECONCEPTO>Nómina mensual</PECONCEPTO>
+    <PETIPO>I</PETIPO>
+    <PEACTIVIDA>Contabilidad personal</PEACTIVIDA>
+    <PEIMPNETO>1000.00</PEIMPNETO>
+    <PEOBSERV></PEOBSERV>
+    <PECLIENTE>Empresa 1</PECLIENTE>
+    <PECATINGR>Nómina</PECATINGR>
+    <PERECING>0.00</PERECING>
+    <PEIVAREP>0.00</PEIVAREP>
+    <PEGASTOSFI>0.00</PEGASTOSFI>
+    <PEPROVEED></PEPROVEED>
+    <PECATGAST></PECATGAST>
+    <PECUENTA>Bk nómina</PECUENTA>
+    <PEIVASOP>0.00</PEIVASOP>
+    <PERECGAS>0.00</PERECGAS>
+    <PEIMPTOTAL>1000.00</PEIMPTOTAL>
+    <PEPERIODIC>5</PEPERIODIC>
+    <PEMESES>111111111111</PEMESES>
+    <PEFULTIMO>20140625</PEFULTIMO>
+    <PEFPROXIMO>20140725</PEFPROXIMO>
+  </Record>
+</Data>
+</ROOT>

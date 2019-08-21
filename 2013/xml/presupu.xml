@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<ROOT DATABASE="presupu.dbf">
+  <Structure>
+  <Field>
+  <Field_name>PUFECHA</Field_name>
+  <Field_type>Date</Field_type>
+  </Field>
+  <Field>
+  <Field_name>PUCONCEPTO</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        90</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PUTIPO</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>         1</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PUACTIVIDA</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        60</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PUIMPNETO</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         9</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PUOBSERV</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>       250</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PUCLIENTE</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PUCATINGR</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PURECING</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         5</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PUIVAREP</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         5</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PUGASTOSFI</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         9</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PUPROVEED</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PUCATGAST</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PUIVASOP</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         5</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PURECGAS</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         5</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PUIMPTOTAL</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         9</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  </Structure>
+  <Data>
+  <Record>
+    <PUFECHA>20141212</PUFECHA>
+    <PUCONCEPTO></PUCONCEPTO>
+    <PUTIPO>I</PUTIPO>
+    <PUACTIVIDA>Venta de software</PUACTIVIDA>
+    <PUIMPNETO>1000.00</PUIMPNETO>
+    <PUOBSERV></PUOBSERV>
+    <PUCLIENTE>Empresa 1</PUCLIENTE>
+    <PUCATINGR>Nómina</PUCATINGR>
+    <PURECING>0.00</PURECING>
+    <PUIVAREP>21.00</PUIVAREP>
+    <PUGASTOSFI>0.00</PUGASTOSFI>
+    <PUPROVEED></PUPROVEED>
+    <PUCATGAST></PUCATGAST>
+    <PUIVASOP>0.00</PUIVASOP>
+    <PURECGAS>0.00</PURECGAS>
+    <PUIMPTOTAL>1210.00</PUIMPTOTAL>
+  </Record>
+  <Record>
+    <PUFECHA>20141212</PUFECHA>
+    <PUCONCEPTO></PUCONCEPTO>
+    <PUTIPO>I</PUTIPO>
+    <PUACTIVIDA>Venta de software</PUACTIVIDA>
+    <PUIMPNETO>99.00</PUIMPNETO>
+    <PUOBSERV></PUOBSERV>
+    <PUCLIENTE></PUCLIENTE>
+    <PUCATINGR>Venta de programas</PUCATINGR>
+    <PURECING>0.00</PURECING>
+    <PUIVAREP>21.00</PUIVAREP>
+    <PUGASTOSFI>0.00</PUGASTOSFI>
+    <PUPROVEED></PUPROVEED>
+    <PUCATGAST></PUCATGAST>
+    <PUIVASOP>0.00</PUIVASOP>
+    <PURECGAS>0.00</PURECGAS>
+    <PUIMPTOTAL>119.79</PUIMPTOTAL>
+  </Record>
+  <Record>
+    <PUFECHA>20141215</PUFECHA>
+    <PUCONCEPTO></PUCONCEPTO>
+    <PUTIPO>G</PUTIPO>
+    <PUACTIVIDA>Venta de software</PUACTIVIDA>
+    <PUIMPNETO>999.00</PUIMPNETO>
+    <PUOBSERV></PUOBSERV>
+    <PUCLIENTE></PUCLIENTE>
+    <PUCATINGR></PUCATINGR>
+    <PURECING>0.00</PURECING>
+    <PUIVAREP>0.00</PUIVAREP>
+    <PUGASTOSFI>0.00</PUGASTOSFI>
+    <PUPROVEED>Seguros</PUPROVEED>
+    <PUCATGAST>Primas de seguro</PUCATGAST>
+    <PUIVASOP>21.00</PUIVASOP>
+    <PURECGAS>0.00</PURECGAS>
+    <PUIMPTOTAL>1208.79</PUIMPTOTAL>
+  </Record>
+  <Record>
+    <PUFECHA>20141222</PUFECHA>
+    <PUCONCEPTO></PUCONCEPTO>
+    <PUTIPO>I</PUTIPO>
+    <PUACTIVIDA>Contabilidad personal</PUACTIVIDA>
+    <PUIMPNETO>999.00</PUIMPNETO>
+    <PUOBSERV></PUOBSERV>
+    <PUCLIENTE>Empresa 2</PUCLIENTE>
+    <PUCATINGR></PUCATINGR>
+    <PURECING>0.00</PURECING>
+    <PUIVAREP>0.00</PUIVAREP>
+    <PUGASTOSFI>0.00</PUGASTOSFI>
+    <PUPROVEED></PUPROVEED>
+    <PUCATGAST></PUCATGAST>
+    <PUIVASOP>0.00</PUIVASOP>
+    <PURECGAS>0.00</PURECGAS>
+    <PUIMPTOTAL>999.00</PUIMPTOTAL>
+  </Record>
+  <Record>
+    <PUFECHA>20141222</PUFECHA>
+    <PUCONCEPTO></PUCONCEPTO>
+    <PUTIPO>G</PUTIPO>
+    <PUACTIVIDA>Contabilidad personal</PUACTIVIDA>
+    <PUIMPNETO>499.00</PUIMPNETO>
+    <PUOBSERV></PUOBSERV>
+    <PUCLIENTE></PUCLIENTE>
+    <PUCATINGR></PUCATINGR>
+    <PURECING>0.00</PURECING>
+    <PUIVAREP>0.00</PUIVAREP>
+    <PUGASTOSFI>0.00</PUGASTOSFI>
+    <PUPROVEED>Propietario de oficina</PUPROVEED>
+    <PUCATGAST>Alquileres</PUCATGAST>
+    <PUIVASOP>0.00</PUIVASOP>
+    <PURECGAS>0.00</PURECGAS>
+    <PUIMPTOTAL>499.00</PUIMPTOTAL>
+  </Record>
+</Data>
+</ROOT>

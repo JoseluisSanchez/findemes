@@ -1,0 +1,124 @@
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+ZIPBACKUP_ES DIALOG 41, 15, 240, 188
+STYLE DS_3DLOOK | DS_MODALFRAME | DS_SETFONT | WS_CAPTION | WS_VISIBLE | WS_POPUP | WS_SYSMENU
+CAPTION "ZipBackup"
+FONT 8, "MS Sans Serif"
+{
+    LTEXT           "Directorio a copiar:", 100, 8, 8, 173, 8, SS_LEFT
+    EDITTEXT        101, 8, 20, 224, 12, ES_UPPERCASE
+    CONTROL         "", 102, "TxBrowse", 0x50A10000, 8, 36, 224, 92
+    LTEXT           "Ruta y Fichero ZIP de copia de seguridad:", 103, 8, 134, 140, 8, SS_LEFT
+    EDITTEXT        104, 8, 144, 206, 12
+    PUSHBUTTON      "...", 105, 218, 144, 14, 12
+    DEFPUSHBUTTON   "&Aceptar", IDOK, 128, 164, 50, 16
+    PUSHBUTTON      "&Cancelar", IDCANCEL, 182, 164, 50, 16
+    LTEXT           "01", IDC_STATIC, 8, 160, 224, 1, SS_LEFT | SS_SUNKEN
+}
+
+
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+ZIPRESTORE_ES DIALOG 41, 15, 240, 188
+STYLE DS_3DLOOK | DS_MODALFRAME | DS_SETFONT | WS_CAPTION | WS_VISIBLE | WS_POPUP | WS_SYSMENU
+CAPTION "ZipBackup"
+FONT 8, "MS Sans Serif"
+{
+    LTEXT           "Fichero ZIP con la copia de seguridad:", 100, 8, 8, 173, 8, SS_LEFT
+    EDITTEXT        101, 8, 20, 206, 12, ES_AUTOHSCROLL
+    PUSHBUTTON      "...", 105, 218, 20, 14, 12
+    CONTROL         "", 102, "TxBrowse", 0x50A10000, 8, 36, 224, 92
+    LTEXT           "Directorio de destino de los datos:", 103, 8, 134, 140, 8, SS_LEFT
+    EDITTEXT        104, 8, 144, 224, 12, ES_READONLY
+    DEFPUSHBUTTON   "&Aceptar", IDOK, 128, 164, 50, 16
+    PUSHBUTTON      "&Cancelar", IDCANCEL, 182, 164, 50, 16
+    LTEXT           "01", IDC_STATIC, 8, 160, 224, 1, SS_LEFT | SS_SUNKEN
+}
+
+
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+UT_INDEXAR_ES DIALOG 41, 26, 200, 76
+STYLE DS_MODALFRAME | DS_SETFONT | WS_CAPTION | WS_POPUP | WS_SYSMENU
+CAPTION "Un momento por favor"
+FONT 8, "Ms Sans Serif"
+{
+    CONTROL         "", 111, "TBitmap", 0x50000000, 12, 10, 26, 26
+    LTEXT           "Generando índices. ", 99, 47, 16, 141, 8, SS_LEFT
+    LTEXT           "", 10, 47, 28, 141, 8, SS_LEFT
+    CONTROL         "", 101, PROGRESS_CLASS, 0, 12, 48, 176, 16
+}
+
+
+
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+UT_PROGRESS_ES DIALOG 41, 26, 200, 76
+STYLE DS_MODALFRAME | DS_SETFONT | WS_CAPTION | WS_POPUP
+CAPTION "Un momento por favor"
+FONT 8, "Ms Sans Serif"
+{
+    CONTROL         "", 111, "TBitmap", 0x50000000, 16, 12, 26, 26
+    LTEXT           "", 99, 56, 16, 132, 8, SS_LEFT
+    LTEXT           "", 100, 56, 28, 132, 8, SS_LEFT
+    CONTROL         "", 101, PROGRESS_CLASS, 0, 12, 48, 176, 16
+}
+
+
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+UT_ACTUALIZAR_ES DIALOG 41, 26, 200, 76
+STYLE DS_MODALFRAME | DS_SYSMODAL | DS_SETFONT | WS_CAPTION | WS_POPUP
+CAPTION "Un momento por favor"
+FONT 8, "Ms Sans Serif"
+{
+    CONTROL         "", 111, "TBitmap", 0x50000000, 12, 12, 29, 26
+    LTEXT           "Actualizando ficheros de datos.", 99, 56, 16, 128, 8, SS_LEFT
+    LTEXT           "", 10, 56, 28, 128, 8, SS_LEFT
+}
+
+
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+UT_BRWCONFIG_ES DIALOG 41, 15, 198, 176
+STYLE DS_3DLOOK | DS_MODALFRAME | DS_SETFONT | WS_CAPTION | WS_VISIBLE | WS_POPUP | WS_SYSMENU
+CAPTION "Configuración de columnas"
+FONT 8, "MS Sans Serif"
+{
+    EDITTEXT        101, 104, 132, 32, 12, WS_VSCROLL | ES_RIGHT | ES_AUTOHSCROLL
+    PUSHBUTTON      "&Subir", 404, 140, 36, 50, 16
+    PUSHBUTTON      "&Bajar", 405, 140, 52, 50, 16
+    PUSHBUTTON      "&Mostrar", 402, 140, 68, 50, 16
+    PUSHBUTTON      "&Ocultar", 403, 140, 84, 50, 16
+    DEFPUSHBUTTON   "&Aceptar", 400, 86, 152, 50, 16
+    PUSHBUTTON      "&Cancelar", 401, 140, 152, 50, 16
+    LTEXT           "Marque las columnas que le gustaria hace visible en esta ventana. Utilice los botones subir y bajar para reordenar las columnas", -1, 8, 8, 178, 28, SS_LEFT
+    LTEXT           "Anchura de la columna", 4001, 8, 134, 80, 8, SS_LEFT
+    CONTROL         "", 100, "TxBrowse", 0x50A10000, 8, 36, 128, 92
+    LTEXT           "01", IDC_STATIC, 8, 148, 182, 1, SS_LEFT | SS_SUNKEN
+}
+
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+UT_INFO DIALOG 0, 0, 206, 88
+STYLE DS_3DLOOK | DS_CENTER | DS_MODALFRAME | DS_SHELLFONT | WS_CAPTION | WS_VISIBLE | WS_POPUP | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "Ms Shell Dlg"
+{
+    DEFPUSHBUTTON   "&Aceptar", IDOK, 148, 64, 50, 16
+    LTEXT           "Static", IDC_STATIC, 8, 60, 190, 1, SS_LEFT | SS_SUNKEN
+    CONTROL         "", 111, "TBitmap", 0x50000000, 8, 8, 36, 36
+    LTEXT           "", 10, 52, 10, 146, 45, SS_LEFT
+}
+
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+UT_YESNO DIALOG 29, 34, 206, 88
+STYLE DS_MODALFRAME | DS_SETFONT | WS_CAPTION | WS_POPUP | WS_SYSMENU
+CAPTION "alanit"
+FONT 8, "Ms Sans Serif"
+{
+    DEFPUSHBUTTON   "&Aceptar", IDOK, 94, 64, 50, 16
+    PUSHBUTTON      "&Cancelar", IDCANCEL, 148, 64, 50, 16
+    LTEXT           "Static", IDC_STATIC, 8, 59, 190, 1, SS_LEFT | SS_SUNKEN
+    CONTROL         "", 111, "TBitmap", 0x50000000, 8, 8, 36, 36
+    LTEXT           "", 10, 52, 10, 146, 45, SS_LEFT
+}
+
+//
+// Manifest resources
+//
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+1 24 "WindowsXP.Manifest"

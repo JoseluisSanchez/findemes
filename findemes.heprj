@@ -1,0 +1,79 @@
+<XMLConfigSettings>
+	<FILEINFO type="ProjectFile">
+		<Type>ProjectFile</Type>
+	</FILEINFO>
+	<Properties>
+		<WorkDirectory>c:\\alanit\\develop\\findemes</WorkDirectory>
+		<PLanguage>clipper</PLanguage>
+		<Encoding>-1</Encoding>
+		<CRLFMode>-1</CRLFMode>
+		<RootDirectory>c:\\alanit\\develop\\findemes</RootDirectory>
+	</Properties>
+	<NODES>
+		<File name=".\\prg\\Alanit\\main.prg"/>
+		<Folder open="false" name="alanit">
+			<File name=".\\prg\\Alanit\\tfsdi.prg"/>
+			<File name=".\\prg\\Alanit\\tInforme.prg"/>
+			<File name=".\\prg\\Alanit\\tips.prg"/>
+			<File name=".\\prg\\Alanit\\ut_brw.prg"/>
+			<File name=".\\prg\\Alanit\\ut_calend.prg"/>
+			<File name=".\\prg\\Alanit\\ut_common.prg"/>
+			<File name=".\\prg\\Alanit\\ut_dbf.prg"/>
+			<File name=".\\prg\\Alanit\\ut_index.prg"/>
+			<File name=".\\prg\\Alanit\\ut_msg.prg"/>
+			<File name=".\\prg\\Alanit\\ut_override.prg"/>
+			<File name=".\\prg\\Alanit\\ut_update.prg"/>
+			<File name=".\\prg\\Alanit\\ut_xml.prg"/>
+			<File name=".\\prg\\Alanit\\zipbackup.prg"/>
+		</Folder>
+		<Folder open="true" name="contabilidad">
+			<File name=".\\prg\\Contabilidad\\PActivida.prg"/>
+			<File name=".\\prg\\Contabilidad\\PApunte.prg"/>
+			<File name=".\\prg\\Contabilidad\\PCliente.prg"/>
+			<File name=".\\prg\\Contabilidad\\PCuenta.prg"/>
+			<File name=".\\prg\\Contabilidad\\PEjercicio.prg"/>
+			<File name=".\\prg\\Contabilidad\\PGasto.prg"/>
+			<File name=".\\prg\\Contabilidad\\PGrafico.prg"/>
+			<File name=".\\prg\\Inventario\\PIngreso.prg"/>
+			<File name=".\\prg\\Contabilidad\\PPeriodi.prg"/>
+			<File name=".\\prg\\Contabilidad\\PPresupu.prg"/>
+			<File name=".\\prg\\Contabilidad\\PProveed.prg"/>
+			<File name=".\\prg\\Contabilidad\\PTraspaso.prg"/>
+		</Folder>
+		<Folder open="true" name="inventario">
+			<File name=".\\prg\\Inventario\\PIBienes.prg"/>
+			<File name=".\\prg\\Inventario\\PICategor.prg"/>
+			<File name=".\\prg\\Inventario\\PIEtiqueta.prg"/>
+			<File name=".\\prg\\Inventario\\PIMarca.prg"/>
+			<File name=".\\prg\\Inventario\\PITiendas.prg"/>
+			<File name=".\\prg\\Inventario\\PIUbicaci.prg"/>
+		</Folder>
+		<Folder open="false" name="fwh">
+			<File name=".\\prg\\FWH\\c5imglis.prg"/>
+			<File name=".\\prg\\FWH\\c5vitem.prg"/>
+			<File name=".\\prg\\FWH\\c5vmenu.prg"/>
+			<File name=".\\prg\\FWH\\errsysw.prg"/>
+			<File name=".\\prg\\FWH\\RPreview.prg"/>
+			<File name=".\\prg\\FWH\\tabs.prg"/>
+			<File name=".\\prg\\FWH\\tagever2.prg"/>
+			<File name=".\\prg\\FWH\\tribbon.prg"/>
+			<File name=".\\prg\\FWH\\tsayref.prg"/>
+			<File name=".\\prg\\FWH\\tZoomImage.prg"/>
+		</Folder>
+		<Folder open="true" name="documentos">
+			<File name=".\\docum\\whatsnew.txt"/>
+		</Folder>
+		<Folder open="true" name="make">
+			<File name=".\\Error.log"/>
+			<File name=".\\findemes.ini"/>
+			<File name=".\\res\\findemes.rc"/>
+			<File name=".\\makefile\\rc32.bat"/>
+			<File name=".\\makefile\\fdm1905.bc"/>
+			<File name=".\\makefile\\fdm1905.mak"/>
+		</Folder>
+		<Tool name="&gt;&gt; clean" initial_dir="c:\\alanit\\develop\\findemes" capture_output="true" context_menu="true" command="c:\\alanit\\develop\\findemes\\makefile\\clean.bat"/>
+		<Tool name="&gt;&gt; rc32" initial_dir="%ProjectDir%" capture_output="true" context_menu="true" save="3" key="121" command="c:\\alanit\\develop\\findemes\\makefile\\rc32.bat"/>
+		<Tool name="&gt;&gt; build 1905" arguments="-f %ProjectDir%\\makefile\\fdm1905.mak" initial_dir="c:\\alanit\\develop\\findemes" capture_output="true" save="2" key="122" command="c:\\BCC\\BCC7\\bin\\make.exe"/>
+		<Tool name="findemes" key="123" command="c:\\alanit\\develop\\findemes\\findemes.exe"/>
+	</NODES>
+</XMLConfigSettings>

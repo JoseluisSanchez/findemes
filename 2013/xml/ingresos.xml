@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<ROOT DATABASE="ingresos.dbf">
+  <Structure>
+  <Field>
+  <Field_name>INCATEGOR</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>INCOLOR</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>        10</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  </Structure>
+  <Data>
+  <Record>
+    <INCATEGOR>Nómina</INCATEGOR>
+    <INCOLOR>16744576</INCOLOR>
+  </Record>
+  <Record>
+    <INCATEGOR>Venta de programas</INCATEGOR>
+    <INCOLOR>8421376</INCOLOR>
+  </Record>
+  <Record>
+    <INCATEGOR>Ingresos extraordinarios</INCATEGOR>
+    <INCOLOR>4227327</INCOLOR>
+  </Record>
+</Data>
+</ROOT>

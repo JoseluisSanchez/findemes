@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<ROOT DATABASE="ma.dbf">
+  <Structure>
+  <Field>
+  <Field_name>MANOMBRE</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>MACIF</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        15</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>MANOTAS</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>       255</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>MADIRECC</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        50</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>MALOCALI</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        50</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>MAPAIS</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        30</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>MATELEFONO</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        15</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>MACONTACTO</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>MAEMAIL</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        50</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>MAURL</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        50</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  </Structure>
+  <Data>
+</Data>
+</ROOT>

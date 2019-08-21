@@ -1,0 +1,9 @@
+*.obj
+*.exe
+*.nit
+*.dll
+/obj/
+/png/
+/prg/fwh/
+/prg-backup/
+/recursos/

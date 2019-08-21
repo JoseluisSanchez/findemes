@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<ROOT DATABASE="proveed.dbf">
+  <Structure>
+  <Field>
+  <Field_name>PRNOMBRE</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PRCIF</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        15</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PRCATEGOR</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PRNOTAS</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>       255</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PRDIRECC</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        50</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PRLOCALI</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        50</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PRPAIS</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        30</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PRTELEFONO</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        15</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PRMOVIL</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        15</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PRFAX</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        15</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PRCONTACTO</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PREMAIL</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        50</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>PRURL</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        50</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  </Structure>
+  <Data>
+  <Record>
+    <PRNOMBRE>Iberdrola</PRNOMBRE>
+    <PRCIF></PRCIF>
+    <PRCATEGOR></PRCATEGOR>
+    <PRNOTAS></PRNOTAS>
+    <PRDIRECC></PRDIRECC>
+    <PRLOCALI></PRLOCALI>
+    <PRPAIS></PRPAIS>
+    <PRTELEFONO>901202020</PRTELEFONO>
+    <PRMOVIL></PRMOVIL>
+    <PRFAX></PRFAX>
+    <PRCONTACTO></PRCONTACTO>
+    <PREMAIL></PREMAIL>
+    <PRURL>http://www.iberdrola.es</PRURL>
+  </Record>
+  <Record>
+    <PRNOMBRE>AEAT</PRNOMBRE>
+    <PRCIF></PRCIF>
+    <PRCATEGOR></PRCATEGOR>
+    <PRNOTAS></PRNOTAS>
+    <PRDIRECC></PRDIRECC>
+    <PRLOCALI></PRLOCALI>
+    <PRPAIS></PRPAIS>
+    <PRTELEFONO></PRTELEFONO>
+    <PRMOVIL></PRMOVIL>
+    <PRFAX></PRFAX>
+    <PRCONTACTO></PRCONTACTO>
+    <PREMAIL></PREMAIL>
+    <PRURL></PRURL>
+  </Record>
+  <Record>
+    <PRNOMBRE>Telefonica</PRNOMBRE>
+    <PRCIF></PRCIF>
+    <PRCATEGOR></PRCATEGOR>
+    <PRNOTAS></PRNOTAS>
+    <PRDIRECC></PRDIRECC>
+    <PRLOCALI></PRLOCALI>
+    <PRPAIS></PRPAIS>
+    <PRTELEFONO></PRTELEFONO>
+    <PRMOVIL></PRMOVIL>
+    <PRFAX></PRFAX>
+    <PRCONTACTO></PRCONTACTO>
+    <PREMAIL></PREMAIL>
+    <PRURL></PRURL>
+  </Record>
+  <Record>
+    <PRNOMBRE>Seguros</PRNOMBRE>
+    <PRCIF></PRCIF>
+    <PRCATEGOR></PRCATEGOR>
+    <PRNOTAS></PRNOTAS>
+    <PRDIRECC></PRDIRECC>
+    <PRLOCALI></PRLOCALI>
+    <PRPAIS></PRPAIS>
+    <PRTELEFONO></PRTELEFONO>
+    <PRMOVIL></PRMOVIL>
+    <PRFAX></PRFAX>
+    <PRCONTACTO></PRCONTACTO>
+    <PREMAIL></PREMAIL>
+    <PRURL></PRURL>
+  </Record>
+  <Record>
+    <PRNOMBRE>Empresa de alojamiento web</PRNOMBRE>
+    <PRCIF></PRCIF>
+    <PRCATEGOR></PRCATEGOR>
+    <PRNOTAS></PRNOTAS>
+    <PRDIRECC></PRDIRECC>
+    <PRLOCALI></PRLOCALI>
+    <PRPAIS></PRPAIS>
+    <PRTELEFONO></PRTELEFONO>
+    <PRMOVIL></PRMOVIL>
+    <PRFAX></PRFAX>
+    <PRCONTACTO></PRCONTACTO>
+    <PREMAIL></PREMAIL>
+    <PRURL></PRURL>
+  </Record>
+  <Record>
+    <PRNOMBRE>Propietario de oficina</PRNOMBRE>
+    <PRCIF></PRCIF>
+    <PRCATEGOR></PRCATEGOR>
+    <PRNOTAS></PRNOTAS>
+    <PRDIRECC></PRDIRECC>
+    <PRLOCALI></PRLOCALI>
+    <PRPAIS></PRPAIS>
+    <PRTELEFONO></PRTELEFONO>
+    <PRMOVIL></PRMOVIL>
+    <PRFAX></PRFAX>
+    <PRCONTACTO></PRCONTACTO>
+    <PREMAIL></PREMAIL>
+    <PRURL></PRURL>
+  </Record>
+</Data>
+</ROOT>

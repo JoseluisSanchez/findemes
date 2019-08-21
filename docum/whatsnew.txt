@@ -1,0 +1,10 @@
+pendiente
+
+versión 3.72.a
+	* añadido pie de totales en la consulta de apuntes y presupuestos de clientes, ingresos, proveedores y gastos.
+
+versión 3.71.a * 10.04.19
+	* añadido autocompletado al campo concepto de los apuntes
+
+versión 3.70.a * 
+	* nueva edición gratuita con temporizador de aviso

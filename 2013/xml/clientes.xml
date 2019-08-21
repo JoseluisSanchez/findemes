@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<ROOT DATABASE="clientes.dbf">
+  <Structure>
+  <Field>
+  <Field_name>CLNOMBRE</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>CLCIF</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        15</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>CLCATEGOR</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>CLNOTAS</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>       255</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>CLDIRECC</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        50</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>CLLOCALI</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        50</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>CLPAIS</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        30</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>CLTELEFONO</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        15</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>CLMOVIL</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        15</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>CLFAX</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        15</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>CLCONTACTO</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>CLEMAIL</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        50</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>CLURL</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        50</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  </Structure>
+  <Data>
+  <Record>
+    <CLNOMBRE>Clientes varios</CLNOMBRE>
+    <CLCIF></CLCIF>
+    <CLCATEGOR></CLCATEGOR>
+    <CLNOTAS></CLNOTAS>
+    <CLDIRECC></CLDIRECC>
+    <CLLOCALI></CLLOCALI>
+    <CLPAIS></CLPAIS>
+    <CLTELEFONO></CLTELEFONO>
+    <CLMOVIL></CLMOVIL>
+    <CLFAX></CLFAX>
+    <CLCONTACTO></CLCONTACTO>
+    <CLEMAIL></CLEMAIL>
+    <CLURL></CLURL>
+  </Record>
+  <Record>
+    <CLNOMBRE>Empresa 1</CLNOMBRE>
+    <CLCIF></CLCIF>
+    <CLCATEGOR></CLCATEGOR>
+    <CLNOTAS></CLNOTAS>
+    <CLDIRECC></CLDIRECC>
+    <CLLOCALI></CLLOCALI>
+    <CLPAIS></CLPAIS>
+    <CLTELEFONO></CLTELEFONO>
+    <CLMOVIL></CLMOVIL>
+    <CLFAX></CLFAX>
+    <CLCONTACTO></CLCONTACTO>
+    <CLEMAIL></CLEMAIL>
+    <CLURL></CLURL>
+  </Record>
+  <Record>
+    <CLNOMBRE>Empresa 2</CLNOMBRE>
+    <CLCIF></CLCIF>
+    <CLCATEGOR></CLCATEGOR>
+    <CLNOTAS></CLNOTAS>
+    <CLDIRECC></CLDIRECC>
+    <CLLOCALI></CLLOCALI>
+    <CLPAIS></CLPAIS>
+    <CLTELEFONO></CLTELEFONO>
+    <CLMOVIL></CLMOVIL>
+    <CLFAX></CLFAX>
+    <CLCONTACTO></CLCONTACTO>
+    <CLEMAIL></CLEMAIL>
+    <CLURL></CLURL>
+  </Record>
+</Data>
+</ROOT>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<ROOT DATABASE="activida.dbf">
+  <Structure>
+  <Field>
+  <Field_name>ACANYO</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>         4</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>ACNUMERO</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>         2</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>ACACTIVIDA</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        60</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>ACPREDETER</Field_name>
+  <Field_type>Logical</Field_type>
+  </Field>
+  <Field>
+  <Field_name>ACIVA</Field_name>
+  <Field_type>Logical</Field_type>
+  </Field>
+  <Field>
+  <Field_name>ACREQUIV</Field_name>
+  <Field_type>Logical</Field_type>
+  </Field>
+  </Structure>
+  <Data>
+  <Record>
+    <ACANYO>2012</ACANYO>
+    <ACNUMERO>01</ACNUMERO>
+    <ACACTIVIDA>Contabilidad personal</ACACTIVIDA>
+    <ACPREDETER>True</ACPREDETER>
+    <ACIVA>False</ACIVA>
+    <ACREQUIV>False</ACREQUIV>
+  </Record>
+  <Record>
+    <ACANYO>2012</ACANYO>
+    <ACNUMERO>02</ACNUMERO>
+    <ACACTIVIDA>Venta de software</ACACTIVIDA>
+    <ACPREDETER>False</ACPREDETER>
+    <ACIVA>True</ACIVA>
+    <ACREQUIV>False</ACREQUIV>
+  </Record>
+</Data>
+</ROOT>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<ROOT DATABASE="traspasos.dbf">
+  <Structure>
+  <Field>
+  <Field_name>TRCC1</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        20</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>TRCC2</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        20</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>TRFECHA</Field_name>
+  <Field_type>Date</Field_type>
+  </Field>
+  <Field>
+  <Field_name>TRIMPORTE</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>        11</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>TRCOMISI1</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>        11</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>TRCOMISI2</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>        11</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  </Structure>
+  <Data>
+  <Record>
+    <TRCC1>Caja 2</TRCC1>
+    <TRCC2>Cuenta 1</TRCC2>
+    <TRFECHA>20140708</TRFECHA>
+    <TRIMPORTE>2000.00</TRIMPORTE>
+    <TRCOMISI1>0.00</TRCOMISI1>
+    <TRCOMISI2>0.00</TRCOMISI2>
+  </Record>
+  <Record>
+    <TRCC1>Bankinter</TRCC1>
+    <TRCC2>SabadellCAM1</TRCC2>
+    <TRFECHA>20140709</TRFECHA>
+    <TRIMPORTE>600.00</TRIMPORTE>
+    <TRCOMISI1>0.00</TRCOMISI1>
+    <TRCOMISI2>0.00</TRCOMISI2>
+  </Record>
+  <Record>
+    <TRCC1></TRCC1>
+    <TRCC2></TRCC2>
+    <TRFECHA></TRFECHA>
+    <TRIMPORTE>0.00</TRIMPORTE>
+    <TRCOMISI1>0.00</TRCOMISI1>
+    <TRCOMISI2>0.00</TRCOMISI2>
+  </Record>
+</Data>
+</ROOT>

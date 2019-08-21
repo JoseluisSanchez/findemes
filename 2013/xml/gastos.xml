@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<ROOT DATABASE="gastos.dbf">
+  <Structure>
+  <Field>
+  <Field_name>GACATEGOR</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>GACOLOR</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>        10</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  </Structure>
+  <Data>
+  <Record>
+    <GACATEGOR>Primas de seguro</GACATEGOR>
+    <GACOLOR>12615680</GACOLOR>
+  </Record>
+  <Record>
+    <GACATEGOR>Asesoría fiscal</GACATEGOR>
+    <GACOLOR>8454143</GACOLOR>
+  </Record>
+  <Record>
+    <GACATEGOR>Tributos municipales</GACATEGOR>
+    <GACOLOR>128</GACOLOR>
+  </Record>
+  <Record>
+    <GACATEGOR>Suministros / Teléfono</GACATEGOR>
+    <GACOLOR>4227072</GACOLOR>
+  </Record>
+  <Record>
+    <GACATEGOR>Productos / Mercaderías</GACATEGOR>
+    <GACOLOR>12615935</GACOLOR>
+  </Record>
+  <Record>
+    <GACATEGOR>Suministros / Luz</GACATEGOR>
+    <GACOLOR>3732618</GACOLOR>
+  </Record>
+  <Record>
+    <GACATEGOR>Suministros / Agua</GACATEGOR>
+    <GACOLOR>8421631</GACOLOR>
+  </Record>
+  <Record>
+    <GACATEGOR>Seguridad social</GACATEGOR>
+    <GACOLOR>4227327</GACOLOR>
+  </Record>
+  <Record>
+    <GACATEGOR>Comisiones tarjetas</GACATEGOR>
+    <GACOLOR>65408</GACOLOR>
+  </Record>
+  <Record>
+    <GACATEGOR>Sueldos</GACATEGOR>
+    <GACOLOR>5233717</GACOLOR>
+  </Record>
+  <Record>
+    <GACATEGOR>Conservación y reparación</GACATEGOR>
+    <GACOLOR>7212861</GACOLOR>
+  </Record>
+  <Record>
+    <GACATEGOR>Alquileres</GACATEGOR>
+    <GACOLOR>7768726</GACOLOR>
+  </Record>
+</Data>
+</ROOT>

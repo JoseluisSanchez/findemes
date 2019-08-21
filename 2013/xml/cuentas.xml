@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<ROOT DATABASE="cuentas.dbf">
+  <Structure>
+  <Field>
+  <Field_name>CCCUENTA</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        20</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>CCBANCO</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        20</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>CCNCUENTA</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        23</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>CCTIPO</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         1</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>CCFAPERTU</Field_name>
+  <Field_type>Date</Field_type>
+  </Field>
+  <Field>
+  <Field_name>CCSALDOIN</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>        11</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>CCFULTIMO</Field_name>
+  <Field_type>Date</Field_type>
+  </Field>
+  <Field>
+  <Field_name>CCSALDOAC</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>        11</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  </Structure>
+  <Data>
+  <Record>
+    <CCCUENTA>SabadellCAM1</CCCUENTA>
+    <CCBANCO></CCBANCO>
+    <CCNCUENTA></CCNCUENTA>
+    <CCTIPO>1</CCTIPO>
+    <CCFAPERTU></CCFAPERTU>
+    <CCSALDOIN>0.00</CCSALDOIN>
+    <CCFULTIMO>20140709</CCFULTIMO>
+    <CCSALDOAC>0.00</CCSALDOAC>
+  </Record>
+  <Record>
+    <CCCUENTA>Bankinter</CCCUENTA>
+    <CCBANCO></CCBANCO>
+    <CCNCUENTA></CCNCUENTA>
+    <CCTIPO>1</CCTIPO>
+    <CCFAPERTU></CCFAPERTU>
+    <CCSALDOIN>0.00</CCSALDOIN>
+    <CCFULTIMO></CCFULTIMO>
+    <CCSALDOAC>-600.00</CCSALDOAC>
+  </Record>
+</Data>
+</ROOT>

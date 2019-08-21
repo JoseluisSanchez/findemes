@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Project>
+   <Type Value="exe"/>
+   <Description Value="findemes"/>
+   <Output Value="findemes.exe"/>
+   <Environment Value="FWH 12.04"/>
+   <MainModule Value="PIBienes.prg"/>
+   <MultipleInstances Value="Y"/>
+   <XPManifest Value="Y"/>
+   <Icon Value=""/>
+   <Parameters Value=""/>
+   <Version>
+      <VersionInfo Value="N"/>
+      <Version Value="1.0"/>
+      <Release Value="0"/>
+      <Build Value="0"/>
+      <Company Value=""/>
+      <CopyRight Value=""/>
+      <TradeMarks Value=""/>
+      <Comments Value=""/>
+   </Version>
+   <Directories>
+      <SourceDir Value="prg"/>
+      <IncludeDir Value="ch"/>
+      <ResourceDir Value="res"/>
+      <ObjDir Value="Obj"/>
+   </Directories>
+   <Options>
+      <AutomaticMemvarDeclaration Value="N"/>
+      <DebugInfo Value="N"/>
+      <SuppressLineNumberInformation Value="N"/>
+      <SuppressShortcutting Value="N"/>
+      <WarnningLevel Value="1"/>
+      <MoreOptions Value=""/>
+      <MoreCOpt Value=""/>
+      <MapFile Value="N"/>
+      <ConsoleMode Value="N"/>
+      <MoreLinkOpt Value=""/>
+   </Options>
+   <Export>
+      <Dir Value=""/>
+      <Source Value="Y"/>
+      <Exe Value="N"/>
+      <Bin Value="N"/>
+      <Resource Value="Y"/>
+      <ResourceAll Value="N"/>
+      <ErrorLog Value="N"/>
+      <Subprojects Value="Y"/>
+   </Export>
+   <Clean>
+      <All Value="N"/>
+   </Clean>
+   <FinalExe>
+      <FullCompile Value="N"/>
+      <UpxCompress Value="N"/>
+      <CompressFlags Value=""/>
+      <Installer Value="N"/>
+      <InstallerFlags Value=""/>
+      <TlbInfo Value="N"/>
+   </FinalExe>
+   <VCS>
+      <Type Value="None"/>
+   </VCS>
+   <Files>
+      <File Filename="PIBienes.prg"/>
+      <File Filename="PICategor.prg"/>
+      <File Filename="PIEtiqueta.prg"/>
+      <File Filename="PIMarca.prg"/>
+      <File Filename="PIngreso.prg"/>
+      <File Filename="PITiendas.prg"/>
+      <File Filename="main.prg"/>
+      <File Filename="PIUbicaci.prg"/>
+   </Files>
+   <Libraries>
+      <Library Filename="[fwh 12.04]FiveH.lib" Link="N"/>
+      <Library Filename="[fwh 12.04]FiveHC.lib" Link="N"/>
+      <Library Filename="[fwh 12.04]C5CalenH.lib" Link="N"/>
+      <Library Filename="[fwh 12.04]C5H.lib" Link="N"/>
+      <Library Filename="[fwh 12.04]C5TaskH.lib" Link="N"/>
+      <Library Filename="[fwh 12.04]FileXLS.lib" Link="N"/>
+      <Library Filename="[Harbour]hbextern.lib"/>
+      <Library Filename="[Harbour]hbdebug.lib"/>
+      <Library Filename="[Harbour]hbvm.lib"/>
+      <Library Filename="[Harbour]hbrtl.lib"/>
+      <Library Filename="[Harbour]hblang.lib"/>
+      <Library Filename="[Harbour]hbcpage.lib"/>
+      <Library Filename="[Harbour]gtcgi.lib" Link="N"/>
+      <Library Filename="[Harbour]gtpca.lib" Link="N"/>
+      <Library Filename="[Harbour]gtstd.lib" Link="N"/>
+      <Library Filename="[Harbour]gtwin.lib"/>
+      <Library Filename="[Harbour]gtwvt.lib" Link="N"/>
+      <Library Filename="[Harbour]gtgui.lib" Link="N"/>
+      <Library Filename="[Harbour]hbrdd.lib"/>
+      <Library Filename="[Harbour]hbuddall.lib"/>
+      <Library Filename="[Harbour]hbusrrdd.lib"/>
+      <Library Filename="[Harbour]rddntx.lib"/>
+      <Library Filename="[Harbour]rddcdx.lib"/>
+      <Library Filename="[Harbour]rddnsx.lib"/>
+      <Library Filename="[Harbour]rddfpt.lib"/>
+      <Library Filename="[Harbour]rddads.lib" Link="N"/>
+      <Library Filename="[Harbour]ace32.lib" Link="N"/>
+      <Library Filename="[Harbour]hbhsx.lib"/>
+      <Library Filename="[Harbour]hbsix.lib"/>
+      <Library Filename="[Harbour]hbmacro.lib"/>
+      <Library Filename="[Harbour]hbcplr.lib"/>
+      <Library Filename="[Harbour]hbpp.lib"/>
+      <Library Filename="[Harbour]hbcommon.lib"/>
+      <Library Filename="[Harbour]hbmainwin.lib"/>
+      <Library Filename="[Harbour]hbmxml.lib"/>
+      <Library Filename="[Harbour]mxml.lib"/>
+      <Library Filename="[Harbour]hbpcre.lib"/>
+      <Library Filename="[Harbour]hbwin.lib"/>
+      <Library Filename="[Harbour]hbmzip.lib"/>
+      <Library Filename="[Harbour]minizip.lib"/>
+      <Library Filename="[Harbour]hbzlib.lib"/>
+      <Library Filename="[bcc]c0w32.obj"/>
+      <Library Filename="[bcc]psdk\odbc32.lib"/>
+      <Library Filename="[bcc]psdk\msimg32.lib"/>
+      <Library Filename="[bcc]cw32.lib"/>
+      <Library Filename="[bcc]import32.lib"/>
+      <Library Filename="[bcc]wininet.lib"/>
+   </Libraries>
+</Project>
+

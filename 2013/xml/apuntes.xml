@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<ROOT DATABASE="apuntes.dbf">
+  <Structure>
+  <Field>
+  <Field_name>APNUMERO</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        10</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APFECHA</Field_name>
+  <Field_type>Date</Field_type>
+  </Field>
+  <Field>
+  <Field_name>APCONCEPTO</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        90</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APTIPO</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>         1</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APACTIVIDA</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        60</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APIMPNETO</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         9</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APOBSERV</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>       250</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APCLIENTE</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APCATINGR</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APMIFACTUR</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        10</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APRECING</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         5</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APIVAREP</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         5</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APGASTOSFI</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         9</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APPROVEED</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APCATGAST</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        40</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APCUENTA</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        20</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APSUFACTUR</Field_name>
+  <Field_type>Character</Field_type>
+  <Field_length>        10</Field_length>
+  <Field_decimals>         0</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APIVASOP</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         5</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APRECGAS</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         5</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  <Field>
+  <Field_name>APIMPTOTAL</Field_name>
+  <Field_type>Numeric</Field_type>
+  <Field_length>         9</Field_length>
+  <Field_decimals>         2</Field_decimals>
+  </Field>
+  </Structure>
+  <Data>
+  <Record>
+    <APNUMERO>0000000001</APNUMERO>
+    <APFECHA>20130530</APFECHA>
+    <APCONCEPTO>Nómina mensual</APCONCEPTO>
+    <APTIPO>I</APTIPO>
+    <APACTIVIDA>Contabilidad personal</APACTIVIDA>
+    <APIMPNETO>1000.00</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE>Empresa 1</APCLIENTE>
+    <APCATINGR>Nómina</APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED></APPROVEED>
+    <APCATGAST></APCATGAST>
+    <APCUENTA></APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>1000.00</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000002</APNUMERO>
+    <APFECHA>20130527</APFECHA>
+    <APCONCEPTO>Factura Mayo 2013</APCONCEPTO>
+    <APTIPO>G</APTIPO>
+    <APACTIVIDA>Contabilidad personal</APACTIVIDA>
+    <APIMPNETO>15.00</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE></APCLIENTE>
+    <APCATINGR></APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED>Telefonica</APPROVEED>
+    <APCATGAST>Suministros / Teléfono</APCATGAST>
+    <APCUENTA></APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>15.00</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000003</APNUMERO>
+    <APFECHA>20130131</APFECHA>
+    <APCONCEPTO>Venta mensual de programas</APCONCEPTO>
+    <APTIPO>I</APTIPO>
+    <APACTIVIDA>Venta de software</APACTIVIDA>
+    <APIMPNETO>148.76</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE>Clientes varios</APCLIENTE>
+    <APCATINGR>Venta de programas</APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>21.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED></APPROVEED>
+    <APCATGAST></APCATGAST>
+    <APCUENTA></APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>180.00</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000004</APNUMERO>
+    <APFECHA>20130330</APFECHA>
+    <APCONCEPTO>Venta mensual de programas</APCONCEPTO>
+    <APTIPO>I</APTIPO>
+    <APACTIVIDA>Venta de software</APACTIVIDA>
+    <APIMPNETO>181.82</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE>Clientes varios</APCLIENTE>
+    <APCATINGR>Venta de programas</APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>21.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED></APPROVEED>
+    <APCATGAST></APCATGAST>
+    <APCUENTA></APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>220.00</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000005</APNUMERO>
+    <APFECHA>20130131</APFECHA>
+    <APCONCEPTO>ADSL mensual</APCONCEPTO>
+    <APTIPO>G</APTIPO>
+    <APACTIVIDA>Venta de software</APACTIVIDA>
+    <APIMPNETO>16.49</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE></APCLIENTE>
+    <APCATINGR></APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED>Telefonica</APPROVEED>
+    <APCATGAST>Suministros / Teléfono</APCATGAST>
+    <APCUENTA></APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>21.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>19.95</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000006</APNUMERO>
+    <APFECHA>20130429</APFECHA>
+    <APCONCEPTO>Nómina mensual</APCONCEPTO>
+    <APTIPO>I</APTIPO>
+    <APACTIVIDA>Contabilidad personal</APACTIVIDA>
+    <APIMPNETO>1000.00</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE>Empresa 1</APCLIENTE>
+    <APCATINGR>Nómina</APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED></APPROVEED>
+    <APCATGAST></APCATGAST>
+    <APCUENTA></APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>1000.00</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000007</APNUMERO>
+    <APFECHA>20130228</APFECHA>
+    <APCONCEPTO>Venta mensual de programas</APCONCEPTO>
+    <APTIPO>I</APTIPO>
+    <APACTIVIDA>Venta de software</APACTIVIDA>
+    <APIMPNETO>115.70</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE>Clientes varios</APCLIENTE>
+    <APCATINGR>Venta de programas</APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>21.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED></APPROVEED>
+    <APCATGAST></APCATGAST>
+    <APCUENTA></APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>140.00</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000008</APNUMERO>
+    <APFECHA>20130228</APFECHA>
+    <APCONCEPTO>ADSL mensual</APCONCEPTO>
+    <APTIPO>G</APTIPO>
+    <APACTIVIDA>Venta de software</APACTIVIDA>
+    <APIMPNETO>16.49</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE></APCLIENTE>
+    <APCATINGR></APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED>Telefonica</APPROVEED>
+    <APCATGAST>Suministros / Teléfono</APCATGAST>
+    <APCUENTA></APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>21.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>19.95</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000009</APNUMERO>
+    <APFECHA>20130329</APFECHA>
+    <APCONCEPTO>ADSL mensual</APCONCEPTO>
+    <APTIPO>G</APTIPO>
+    <APACTIVIDA>Venta de software</APACTIVIDA>
+    <APIMPNETO>16.49</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE></APCLIENTE>
+    <APCATINGR></APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED>Telefonica</APPROVEED>
+    <APCATGAST>Suministros / Teléfono</APCATGAST>
+    <APCUENTA></APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>21.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>19.95</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000010</APNUMERO>
+    <APFECHA>20130427</APFECHA>
+    <APCONCEPTO>Factura Mayo 2013</APCONCEPTO>
+    <APTIPO>G</APTIPO>
+    <APACTIVIDA>Contabilidad personal</APACTIVIDA>
+    <APIMPNETO>121.00</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE></APCLIENTE>
+    <APCATINGR></APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED>Iberdrola</APPROVEED>
+    <APCATGAST>Suministros / Luz</APCATGAST>
+    <APCUENTA></APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>121.00</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000011</APNUMERO>
+    <APFECHA>20130415</APFECHA>
+    <APCONCEPTO>Desarrollo web a medida</APCONCEPTO>
+    <APTIPO>I</APTIPO>
+    <APACTIVIDA>Venta de software</APACTIVIDA>
+    <APIMPNETO>490.00</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE>Clientes varios</APCLIENTE>
+    <APCATINGR>Ingresos extraordinarios</APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>21.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED></APPROVEED>
+    <APCATGAST></APCATGAST>
+    <APCUENTA></APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>592.90</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000012</APNUMERO>
+    <APFECHA>20140301</APFECHA>
+    <APCONCEPTO></APCONCEPTO>
+    <APTIPO>I</APTIPO>
+    <APACTIVIDA>Venta de software</APACTIVIDA>
+    <APIMPNETO>100.00</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE></APCLIENTE>
+    <APCATINGR></APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>21.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED></APPROVEED>
+    <APCATGAST></APCATGAST>
+    <APCUENTA></APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>121.00</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000013</APNUMERO>
+    <APFECHA>20140301</APFECHA>
+    <APCONCEPTO></APCONCEPTO>
+    <APTIPO>I</APTIPO>
+    <APACTIVIDA>Venta de software</APACTIVIDA>
+    <APIMPNETO>50.00</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE></APCLIENTE>
+    <APCATINGR></APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>21.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED></APPROVEED>
+    <APCATGAST></APCATGAST>
+    <APCUENTA></APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>60.50</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000014</APNUMERO>
+    <APFECHA>20130630</APFECHA>
+    <APCONCEPTO>Nómina mensual</APCONCEPTO>
+    <APTIPO>I</APTIPO>
+    <APACTIVIDA>Contabilidad personal</APACTIVIDA>
+    <APIMPNETO>1000.00</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE>Empresa 1</APCLIENTE>
+    <APCATINGR>Nómina</APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED></APPROVEED>
+    <APCATGAST></APCATGAST>
+    <APCUENTA>Bk nómina</APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>1000.00</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000015</APNUMERO>
+    <APFECHA>20131122</APFECHA>
+    <APCONCEPTO>Seguro de la casa</APCONCEPTO>
+    <APTIPO>G</APTIPO>
+    <APACTIVIDA>Contabilidad personal</APACTIVIDA>
+    <APIMPNETO>200.00</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE></APCLIENTE>
+    <APCATINGR></APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED>Seguros</APPROVEED>
+    <APCATGAST>Seguros</APCATGAST>
+    <APCUENTA>SabadellCAM1</APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>200.00</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000016</APNUMERO>
+    <APFECHA>20130709</APFECHA>
+    <APCONCEPTO>Cuota mensual de ADSL</APCONCEPTO>
+    <APTIPO>G</APTIPO>
+    <APACTIVIDA>Venta de software</APACTIVIDA>
+    <APIMPNETO>39.95</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE></APCLIENTE>
+    <APCATINGR></APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED>Telefonica</APPROVEED>
+    <APCATGAST>Linea ADSL</APCATGAST>
+    <APCUENTA>Bk nómina</APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>21.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>48.34</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000017</APNUMERO>
+    <APFECHA>20130730</APFECHA>
+    <APCONCEPTO>Nómina mensual</APCONCEPTO>
+    <APTIPO>I</APTIPO>
+    <APACTIVIDA>Contabilidad personal</APACTIVIDA>
+    <APIMPNETO>1000.00</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE>Empresa 1</APCLIENTE>
+    <APCATINGR>Nómina</APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED></APPROVEED>
+    <APCATGAST></APCATGAST>
+    <APCUENTA>Bk nómina</APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>1000.00</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000018</APNUMERO>
+    <APFECHA>20130522</APFECHA>
+    <APCONCEPTO>Seguro de la casa</APCONCEPTO>
+    <APTIPO>G</APTIPO>
+    <APACTIVIDA>Contabilidad personal</APACTIVIDA>
+    <APIMPNETO>200.00</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE></APCLIENTE>
+    <APCATINGR></APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED>Seguros</APPROVEED>
+    <APCATGAST>Seguros</APCATGAST>
+    <APCUENTA>SabadellCAM1</APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>200.00</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000019</APNUMERO>
+    <APFECHA>20130809</APFECHA>
+    <APCONCEPTO>Cuota mensual de ADSL</APCONCEPTO>
+    <APTIPO>G</APTIPO>
+    <APACTIVIDA>Venta de software</APACTIVIDA>
+    <APIMPNETO>39.95</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE></APCLIENTE>
+    <APCATINGR></APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED>Telefonica</APPROVEED>
+    <APCATGAST>Linea ADSL</APCATGAST>
+    <APCUENTA>Bk nómina</APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>21.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>48.34</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000020</APNUMERO>
+    <APFECHA>20130830</APFECHA>
+    <APCONCEPTO>Nómina mensual</APCONCEPTO>
+    <APTIPO>I</APTIPO>
+    <APACTIVIDA>Contabilidad personal</APACTIVIDA>
+    <APIMPNETO>1000.00</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE>Empresa 1</APCLIENTE>
+    <APCATINGR>Nómina</APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED></APPROVEED>
+    <APCATGAST></APCATGAST>
+    <APCUENTA>Bk nómina</APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>1000.00</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000021</APNUMERO>
+    <APFECHA>20131122</APFECHA>
+    <APCONCEPTO>Seguro de la casa</APCONCEPTO>
+    <APTIPO>G</APTIPO>
+    <APACTIVIDA>Contabilidad personal</APACTIVIDA>
+    <APIMPNETO>200.00</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE></APCLIENTE>
+    <APCATINGR></APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED>Seguros</APPROVEED>
+    <APCATGAST>Seguros</APCATGAST>
+    <APCUENTA>SabadellCAM1</APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>200.00</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000022</APNUMERO>
+    <APFECHA>20130909</APFECHA>
+    <APCONCEPTO>Cuota mensual de ADSL</APCONCEPTO>
+    <APTIPO>G</APTIPO>
+    <APACTIVIDA>Venta de software</APACTIVIDA>
+    <APIMPNETO>39.95</APIMPNETO>
+    <APOBSERV></APOBSERV>
+    <APCLIENTE></APCLIENTE>
+    <APCATINGR></APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED>Telefonica</APPROVEED>
+    <APCATGAST>Linea ADSL</APCATGAST>
+    <APCUENTA>Bk nómina</APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>21.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>48.34</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO></APNUMERO>
+    <APFECHA></APFECHA>
+    <APCONCEPTO>Boli Caran d&apos;Ache 849+ amarillo</APCONCEPTO>
+    <APTIPO></APTIPO>
+    <APACTIVIDA></APACTIVIDA>
+    <APIMPNETO>0.00</APIMPNETO>
+    <APOBSERV>Bolígrafo de estilo moderno de pulsador, cargado con recambio Goliath de color azul.</APOBSERV>
+    <APCLIENTE></APCLIENTE>
+    <APCATINGR></APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED>FNAC</APPROVEED>
+    <APCATGAST>Escritura</APCATGAST>
+    <APCUENTA></APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>0.00</APIMPTOTAL>
+  </Record>
+  <Record>
+    <APNUMERO>0000000023</APNUMERO>
+    <APFECHA>20151020</APFECHA>
+    <APCONCEPTO>Boli Caran d&apos;Ache 849+ amarillo</APCONCEPTO>
+    <APTIPO>G</APTIPO>
+    <APACTIVIDA>Venta de software</APACTIVIDA>
+    <APIMPNETO>17.50</APIMPNETO>
+    <APOBSERV>Bolígrafo de estilo moderno de pulsador, cargado con recambio Goliath de color azul.</APOBSERV>
+    <APCLIENTE></APCLIENTE>
+    <APCATINGR></APCATINGR>
+    <APMIFACTUR></APMIFACTUR>
+    <APRECING>0.00</APRECING>
+    <APIVAREP>0.00</APIVAREP>
+    <APGASTOSFI>0.00</APGASTOSFI>
+    <APPROVEED>FNAC</APPROVEED>
+    <APCATGAST>Escritura</APCATGAST>
+    <APCUENTA></APCUENTA>
+    <APSUFACTUR></APSUFACTUR>
+    <APIVASOP>0.00</APIVASOP>
+    <APRECGAS>0.00</APRECGAS>
+    <APIMPTOTAL>17.50</APIMPTOTAL>
+  </Record>
+</Data>
+</ROOT>

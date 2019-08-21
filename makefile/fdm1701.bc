@@ -1,0 +1,87 @@
+c:\bcc\bcc7\lib\c0w32.obj +
+   .\OBJ\MAIN.OBJ       +
+	.\OBJ\C5IMGLIS.OBJ  +
+	.\OBJ\C5VITEM.OBJ   +
+	.\OBJ\C5VMENU.OBJ   +
+	.\OBJ\ERRSYSW.OBJ    +
+ 	.\OBJ\PACTIVIDA.OBJ 	+
+	.\OBJ\PAPUNTE.OBJ    +
+	.\OBJ\PCLIENTE.OBJ   +
+	.\OBJ\PCUENTA.OBJ    +
+ 	.\OBJ\PEJERCICIO.OBJ +
+	.\OBJ\PGASTO.OBJ     +
+	.\OBJ\PGRAFICO.OBJ   +
+	.\OBJ\PIBIENES.OBJ   +
+	.\OBJ\PICATEGOR.OBJ  +
+	.\OBJ\PIETIQUETA.OBJ +
+	.\OBJ\PIMARCA.OBJ    +
+   .\OBJ\PINGRESO.OBJ   +
+	.\OBJ\PITIENDAS.OBJ  +
+	.\OBJ\PIUBICACI.OBJ  +
+   .\OBJ\PPERIODI.OBJ   +
+	.\OBJ\PPRESUPU.OBJ   +
+	.\OBJ\PPROVEED.OBJ   +
+	.\OBJ\PTRASPASO.OBJ  +
+	.\OBJ\RPREVIEW.OBJ   +
+   .\OBJ\TABS.OBJ      +
+	.\OBJ\TAGEVER2.OBJ  +
+ 	.\OBJ\TFSDI.OBJ     +
+	.\OBJ\TGETCALC.OBJ  +
+	.\OBJ\TINFORME.OBJ  +
+	.\OBJ\TIPS.OBJ      +
+	.\OBJ\TRIBBON.OBJ   +
+	.\OBJ\TSAYREF.OBJ   +
+   .\OBJ\TZOOMIMAGE.OBJ+
+	.\OBJ\UT_BRW.OBJ    +
+	.\OBJ\UT_CALEND.OBJ +
+	.\OBJ\UT_COMMON.OBJ +
+	.\OBJ\UT_DBF.OBJ    +
+ 	.\OBJ\UT_INDEX.OBJ  +
+   .\OBJ\UT_MSG.OBJ    +
+	.\OBJ\UT_OVERRIDE.OBJ+
+   .\OBJ\UT_XML.OBJ    +
+  	.\OBJ\ZIPBACKUP.OBJ,+
+findemes.exe, +
+findemes.map, +
+c:\fivetech\fwh1406\lib1406\filexls.lib +
+c:\fivetech\fwh1701\lib\FiveH.lib +
+c:\fivetech\fwh1701\lib\FiveHC.lib +
+c:\fivetech\hb32_bcc7\lib\hbrtl.lib + 
+c:\fivetech\hb32_bcc7\lib\hbvm.lib + 
+c:\fivetech\hb32_bcc7\lib\gtgui.lib + 
+c:\fivetech\hb32_bcc7\lib\hblang.lib + 
+c:\fivetech\hb32_bcc7\lib\hbmacro.lib + 
+c:\fivetech\hb32_bcc7\lib\hbrdd.lib + 
+c:\fivetech\hb32_bcc7\lib\rddntx.lib + 
+c:\fivetech\hb32_bcc7\lib\rddcdx.lib + 
+c:\fivetech\hb32_bcc7\lib\rddfpt.lib + 
+c:\fivetech\hb32_bcc7\lib\hbsix.lib + 
+c:\fivetech\hb32_bcc7\lib\hbdebug.lib + 
+c:\fivetech\hb32_bcc7\lib\hbcommon.lib + 
+c:\fivetech\hb32_bcc7\lib\hbpp.lib + 
+c:\fivetech\hb32_bcc7\lib\hbcpage.lib + 
+c:\fivetech\hb32_bcc7\lib\hbwin.lib + 
+c:\fivetech\hb32_bcc7\lib\hbcplr.lib + 
+c:\fivetech\hb32_bcc7\lib\hbct.lib + 
+c:\fivetech\hb32_bcc7\lib\hbpcre.lib + 
+c:\fivetech\hb32_bcc7\lib\xhb.lib + 
+c:\fivetech\hb32_bcc7\lib\hbziparc.lib + 
+c:\fivetech\hb32_bcc7\lib\hbmzip.lib + 
+c:\fivetech\hb32_bcc7\lib\hbzlib.lib + 
+c:\fivetech\hb32_bcc7\lib\minizip.lib + 
+c:\fivetech\hb32_bcc7\lib\png.lib + 
+c:\fivetech\hb32_bcc7\lib\rddads.lib + 
+c:\fivetech\hb32_bcc7\lib\Ace32.lib + 
+c:\bcc\bcc7\lib\cw32.lib + 
+c:\bcc\bcc7\lib\uuid.lib + 
+c:\bcc\bcc7\lib\import32.lib + 
+c:\bcc\bcc7\lib\ws2_32.lib + 
+c:\bcc\bcc7\lib\psdk\odbc32.lib + 
+c:\bcc\bcc7\lib\psdk\nddeapi.lib + 
+c:\bcc\bcc7\lib\psdk\iphlpapi.lib + 
+c:\bcc\bcc7\lib\psdk\msimg32.lib + 
+c:\bcc\bcc7\lib\psdk\psapi.lib + 
+c:\bcc\bcc7\lib\psdk\rasapi32.lib + 
+c:\bcc\bcc7\lib\psdk\gdiplus.lib + 
+c:\bcc\bcc7\lib\psdk\shell32.lib, 
+findemes.res
